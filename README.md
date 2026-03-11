@@ -18,9 +18,9 @@ All models receive the same prompt at temperature 0. Scoring is fully automated 
 | 8 | Exact Instruction Following | Instruction | 7 lines validated (IPv4 primes, NATO, MD5, 2^64) |
 | 9 | Advanced Factual Knowledge | Knowledge | 10 questions, exact answers |
 | 10 | DP Optimization | Code Optimization | Correctness + performance under 2s |
-| 11 | K-Harmonic Graph Coloring | AGI Discovery | Novel problem + self-verification code + optimality proof |
+| 11 | K-Harmonic Graph Coloring | Advanced Reasoning | Custom problem + self-verification code + optimality proof |
 
-Test 11 is a **novel problem that doesn't exist in any literature**. The model must solve it, write verification code, and prove optimality by exhaustive search.
+Test 11 is a **custom constraint-satisfaction problem** designed to test autonomous reasoning. The model must solve it, write verification code, and prove optimality by exhaustive search.
 
 ## Models (20 across 4 tiers)
 
@@ -28,8 +28,12 @@ Test 11 is a **novel problem that doesn't exist in any literature**. The model m
 |------|--------|
 | **Reasoning Frontier** | Claude Opus 4.6, Gemini 3.1 Pro, DeepSeek v3.2, Qwen3 Max Thinking, GPT-5.4 |
 | **Reasoning Fast** | Claude Sonnet 4.6, GPT-5.4, Gemini 3 Flash, Seed 1.6, Seed 2.0 Mini |
-| **Standard Large** | Claude Opus 4.5, DeepSeek v3.2 Speciale, Mistral Large, Qwen 3.5 397B, Qwen 3.5 Flash |
+| **Standard Large** | Claude Opus 4.5, DeepSeek v3.2, Mistral Large, Qwen 3.5 397B, Qwen 3.5 Flash |
 | **Standard Small** | Devstral, Ministral 14B, Liquid LFM2 24B, Nemotron Nano 30B, Gemini Flash Lite |
+
+**Notes:**
+- DeepSeek v3.2 Speciale was excluded due to persistent rate limiting (HTTP 429) on OpenRouter, making reliable benchmarking impractical.
+- GPT-5.4-pro was excluded because response times exceeded the 300s timeout on most tests, making it unsuitable for automated benchmarking.
 
 ## Quick Start
 

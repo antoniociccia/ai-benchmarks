@@ -47,7 +47,7 @@ REASONING_FAST = [
 # Standard Large — modelli grossi senza reasoning esplicito
 STANDARD_LARGE = [
     "anthropic/claude-opus-4.5",
-    "deepseek/deepseek-v3.2-speciale",
+    "deepseek/deepseek-v3.2",
     "mistralai/mistral-large-2512",
     "qwen/qwen3.5-397b-a17b",
     "qwen/qwen3.5-flash-02-23",
@@ -100,7 +100,6 @@ PRICING = {
     "google/gemini-3-flash-preview":        (0.50,   3.00),
     "google/gemini-3.1-flash-lite-preview": (0.25,   1.50),
     "deepseek/deepseek-v3.2":              (0.25,   0.40),
-    "deepseek/deepseek-v3.2-speciale":     (0.40,   1.20),
     "qwen/qwen3-max-thinking":             (0.78,   3.90),
     "qwen/qwen3.5-397b-a17b":             (0.39,   2.34),
     "qwen/qwen3.5-flash-02-23":           (0.10,   0.40),

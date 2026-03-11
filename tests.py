@@ -1127,7 +1127,7 @@ print("BASIC_PASSED")
 
 
 # ─────────────────────────────────────────────────────────────
-# TEST 11: AGI — Autonomous Discovery & Self-Verification
+# TEST 11: Advanced Reasoning — Autonomous Discovery & Self-Verification
 # ─────────────────────────────────────────────────────────────
 
 def test_agi_discovery():
@@ -1330,8 +1330,8 @@ Your code must complete in under 60 seconds."""
         return {"score": score, "max_score": 10, "details": "; ".join(details)}
 
     return {
-        "name": "AGI: K-Harmonic Graph Coloring (Novel Problem)",
-        "category": "agi_discovery",
+        "name": "K-Harmonic Graph Coloring (Custom Problem)",
+        "category": "advanced_reasoning",
         "prompt": prompt,
         "validate": validate,
     }
