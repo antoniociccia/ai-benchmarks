@@ -1,7 +1,6 @@
 .env
 __pycache__/
 *.pyc
-results/
 .DS_Store
 linkedin.py
 linkedin_*.md
