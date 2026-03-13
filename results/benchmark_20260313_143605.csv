@@ -1,0 +1,61 @@
+model,model_short,test_name,category,score,max_score,latency_s,tokens_prompt,tokens_completion,cost_usd,error,validation_details,timestamp
+anthropic/claude-opus-4.5,claude-opus-4.5,Dijkstra 3-Bug Fix,code_debugging,10,10,5.7,431,403,0.01223,,all 3 bugs fixed,2026-03-13T13:25:53.185673+00:00
+anthropic/claude-opus-4.5,claude-opus-4.5,N-Queens Solver,code_generation,10,10,6.109,124,255,0.006995,,all cases passed,2026-03-13T13:25:54.311887+00:00
+anthropic/claude-opus-4.5,claude-opus-4.5,Multi-step Combinatorics,math_logic,3,10,9.242,155,613,0.0161,,"expected=30240, got=29680",2026-03-13T13:25:56.698455+00:00
+anthropic/claude-opus-4.5,claude-opus-4.5,Messy Email → Structured JSON,data_extraction,10,10,10.587,756,760,0.02278,,correctly updated TechnoSoft to 48k; pipeline_eur=232852,2026-03-13T13:25:58.044974+00:00
+anthropic/claude-opus-4.5,claude-opus-4.5,Exact Instruction Following,instruction_following,8.5,10,5.038,287,103,0.00401,,7 lines ✓; line1 ✓; line2 ✓; line3 ✓; line4 29.7.61.3 ✓; line5 ✓; line6 ✓; line7: expected hash 9eaa48d04ed6cd90bfb320ecd8db9b2f,2026-03-13T13:26:01.738218+00:00
+anthropic/claude-opus-4.5,claude-opus-4.5,Constrained Creative Writing,creative_writing,9.5,10,7.694,184,231,0.006695,,"word count 160 ✓; 5 paragraphs ✓; vowel starts ['A', 'E', 'I', 'O', 'U'] ✓; dialogue lines: 3 ✓; 'silence' ×2 ✓; title 'Deafening Silence' (2+ words); all sentences ≤20 words ✓",2026-03-13T13:26:02.010240+00:00
+anthropic/claude-opus-4.5,claude-opus-4.5,Advanced Factual Knowledge,knowledge,10,10,4.122,239,146,0.004845,,,2026-03-13T13:26:02.168156+00:00
+anthropic/claude-opus-4.5,claude-opus-4.5,Legal IT→EN Translation,translation,8,10,9.61,403,245,0.00814,,18/19 terms matched. Missed: ['danni indiretti'],2026-03-13T13:26:02.797529+00:00
+anthropic/claude-opus-4.5,claude-opus-4.5,Einstein's Riddle (Extended),logic_reasoning,10,10,17.394,439,1062,0.028745,,25/25 cells correct. ,2026-03-13T13:26:04.851802+00:00
+anthropic/claude-opus-4.5,claude-opus-4.5,DP Optimization Challenge,code_optimization,10,10,4.369,226,217,0.006555,,correct + fast,2026-03-13T13:26:06.148983+00:00
+deepseek/deepseek-v3.2,deepseek-v3.2,Einstein's Riddle (Extended),logic_reasoning,5,10,2.807,400,68,0.000127,,"16/25 cells correct. pos2[1]: expected 'danish', got 'british'; pos2[4]: expected 'baseball', got 'tennis'; pos3[1]: expected 'british', got 'swedish'; pos4[1]: expected 'german', got 'danish'; pos4[2]: expected 'fish', got 'dogs'",2026-03-13T13:26:08.959070+00:00
+deepseek/deepseek-v3.2,deepseek-v3.2,N-Queens Solver,code_generation,10,10,16.755,107,203,0.000108,,all cases passed,2026-03-13T13:26:19.803857+00:00
+deepseek/deepseek-v3.2,deepseek-v3.2,Messy Email → Structured JSON,data_extraction,10,10,21.008,678,669,0.000437,,correctly updated TechnoSoft to 48k; pipeline_eur=184680,2026-03-13T13:26:29.968850+00:00
+anthropic/claude-opus-4.5,claude-opus-4.5,K-Harmonic Graph Coloring (Custom Problem),advanced_reasoning,6,10,28.27,744,1276,0.03562,,coloring not proper; harmonic constraint violated; code verifies + proves optimality; code autonomously found correct solution despite text error,2026-03-13T13:26:30.517497+00:00
+deepseek/deepseek-v3.2,deepseek-v3.2,Dijkstra 3-Bug Fix,code_debugging,10,10,29.299,366,303,0.000213,,all 3 bugs fixed,2026-03-13T13:26:34.184760+00:00
+deepseek/deepseek-v3.2,deepseek-v3.2,Multi-step Combinatorics,math_logic,10,10,35.451,130,1466,0.000619,,"expected=30240, got=30240",2026-03-13T13:26:37.622976+00:00
+deepseek/deepseek-v3.2,deepseek-v3.2,Legal IT→EN Translation,translation,8,10,18.016,367,214,0.000177,,18/19 terms matched. Missed: ['danni indiretti'],2026-03-13T13:26:37.821463+00:00
+deepseek/deepseek-v3.2,deepseek-v3.2,Constrained Creative Writing,creative_writing,5.5,10,7.962,163,187,0.000116,,"word count 128 ✗; 5 paragraphs ✓; vowel starts ['A', '“', 'I', '“', 'U'] ✗; dialogue lines: 0 ✗; 'silence' ×2 ✓; title 'Loud Silence' (2+ words); all sentences ≤20 words ✓",2026-03-13T13:26:37.932633+00:00
+deepseek/deepseek-v3.2,deepseek-v3.2,Advanced Factual Knowledge,knowledge,9.5,10,3.784,209,101,9.3e-05,,Q1: partial,2026-03-13T13:26:37.969971+00:00
+mistralai/mistral-large-2512,mistral-large-2512,N-Queens Solver,code_generation,10,10,3.126,109,199,0.000353,,all cases passed,2026-03-13T13:26:41.856951+00:00
+deepseek/deepseek-v3.2,deepseek-v3.2,Exact Instruction Following,instruction_following,8.5,10,11.744,270,111,0.000112,,7 lines ✓; line1 ✓; line2 ✓; line3 ✓; line4 7.11.41.41 ✓; line5 ✓; line6 ✓; line7: expected hash 9eaa48d04ed6cd90bfb320ecd8db9b2f,2026-03-13T13:26:42.264437+00:00
+mistralai/mistral-large-2512,mistral-large-2512,Einstein's Riddle (Extended),logic_reasoning,10,10,1.549,405,78,0.00032,,25/25 cells correct. ,2026-03-13T13:26:43.817391+00:00
+deepseek/deepseek-v3.2,deepseek-v3.2,DP Optimization Challenge,code_optimization,10,10,8.026,198,188,0.000125,,correct + fast,2026-03-13T13:26:45.678433+00:00
+mistralai/mistral-large-2512,mistral-large-2512,Dijkstra 3-Bug Fix,code_debugging,10,10,4.026,373,307,0.000647,,all 3 bugs fixed,2026-03-13T13:26:45.920937+00:00
+mistralai/mistral-large-2512,mistral-large-2512,Multi-step Combinatorics,math_logic,0,10,9.253,131,662,0.001058,,"expected=30240, got=11970",2026-03-13T13:26:47.189860+00:00
+mistralai/mistral-large-2512,mistral-large-2512,Legal IT→EN Translation,translation,8,10,4.128,348,230,0.000519,,"17/19 terms matched. Missed: ['extracontrattuale', 'danni indiretti']",2026-03-13T13:26:49.810120+00:00
+mistralai/mistral-large-2512,mistral-large-2512,Constrained Creative Writing,creative_writing,7.0,10,3.946,168,175,0.000347,,"word count 105 ✗; 5 paragraphs ✓; vowel starts ['*', '*', '*', '*', '*'] ✗; dialogue lines: 5 ✓; 'silence' ×2 ✓; title 'Frozen Flame' (2+ words); all sentences ≤20 words ✓",2026-03-13T13:26:49.867518+00:00
+mistralai/mistral-large-2512,mistral-large-2512,Exact Instruction Following,instruction_following,7.0,10,3.569,280,133,0.00034,,"7 lines ✓; line1 ✓; line2 ✓; line3 ✓; line4: primes=True, sum=282; line5 ✓; line6 ✓; line7: expected hash 9eaa48d04ed6cd90bfb320ecd8db9b2f",2026-03-13T13:26:50.760167+00:00
+mistralai/mistral-large-2512,mistral-large-2512,DP Optimization Challenge,code_optimization,10,10,2.021,198,138,0.000306,,correct + fast,2026-03-13T13:26:51.924530+00:00
+mistralai/mistral-large-2512,mistral-large-2512,Advanced Factual Knowledge,knowledge,7.0,10,2.731,217,138,0.000316,,Q1: partial; Q3: wrong; Q7: partial; Q10: wrong,2026-03-13T13:26:52.543923+00:00
+mistralai/mistral-large-2512,mistral-large-2512,Messy Email → Structured JSON,data_extraction,10,10,10.368,715,797,0.001553,,correctly updated TechnoSoft to 48k; pipeline_eur=126720,2026-03-13T13:26:54.187213+00:00
+mistralai/mistral-large-2512,mistral-large-2512,K-Harmonic Graph Coloring (Custom Problem),advanced_reasoning,2,10,15.677,707,1086,0.001982,,coloring not proper; harmonic constraint violated; code claims optimal but doesn't verify,2026-03-13T13:27:06.490433+00:00
+deepseek/deepseek-v3.2,deepseek-v3.2,K-Harmonic Graph Coloring (Custom Problem),advanced_reasoning,7,10,78.875,687,3431,0.001544,,harmonic constraint violated; correct minimum sum; code verifies + proves optimality; code autonomously found correct solution despite text error,2026-03-13T13:27:57.200151+00:00
+qwen/qwen3.5-397b-a17b,qwen3.5-397b-a17b,N-Queens Solver,code_generation,10,10,67.383,118,5151,0.012099,,all cases passed,2026-03-13T13:28:00.476015+00:00
+qwen/qwen3.5-397b-a17b,qwen3.5-397b-a17b,Dijkstra 3-Bug Fix,code_debugging,10,10,94.668,386,7512,0.017729,,all 3 bugs fixed,2026-03-13T13:28:28.901179+00:00
+qwen/qwen3.5-397b-a17b,qwen3.5-397b-a17b,Legal IT→EN Translation,translation,8,10,99.2,334,6224,0.014694,,18/19 terms matched. Missed: ['danni indiretti'],2026-03-13T13:29:39.686429+00:00
+qwen/qwen3.5-397b-a17b,qwen3.5-397b-a17b,Messy Email → Structured JSON,data_extraction,10,10,113.973,703,7168,0.017047,,correctly updated TechnoSoft to 48k; pipeline_eur=305200,2026-03-13T13:29:51.183758+00:00
+qwen/qwen3.5-397b-a17b,qwen3.5-397b-a17b,Multi-step Combinatorics,math_logic,10,10,194.791,146,11872,0.027837,,"expected=30240, got=30240",2026-03-13T13:30:06.725847+00:00
+qwen/qwen3.5-397b-a17b,qwen3.5-397b-a17b,Einstein's Riddle (Extended),logic_reasoning,10,10,187.857,412,9998,0.023556,,25/25 cells correct. ,2026-03-13T13:30:14.357858+00:00
+qwen/qwen3.5-397b-a17b,qwen3.5-397b-a17b,DP Optimization Challenge,code_optimization,10,10,12.479,210,707,0.001736,,correct + fast,2026-03-13T13:30:19.257734+00:00
+qwen/qwen3.5-397b-a17b,qwen3.5-397b-a17b,Exact Instruction Following,instruction_following,0,10,55.52,0,0,0.0,"(""Connection broken: InvalidChunkLength(got length b'', 0 bytes read)"", InvalidChunkLength(got length b'', 0 bytes read))","API error: (""Connection broken: InvalidChunkLength(got length b'', 0 bytes read)"", InvalidChunkLength(got length b'', 0 bytes read))",2026-03-13T13:30:35.208196+00:00
+qwen/qwen3.5-397b-a17b,qwen3.5-397b-a17b,Constrained Creative Writing,creative_writing,9.0,10,132.957,179,8622,0.020245,,"word count 171 ✓; 5 paragraphs ✓; vowel starts ['A', 'E', 'I', 'O', 'U'] ✓; dialogue lines: 4 ✓; 'silence' ×2 ✓; title 'Organized Chaos' (2+ words); all sentences ≤20 words ✓",2026-03-13T13:30:41.863204+00:00
+qwen/qwen3.5-397b-a17b,qwen3.5-397b-a17b,Advanced Factual Knowledge,knowledge,9.5,10,82.626,242,3556,0.008415,,Q1: partial,2026-03-13T13:31:13.814836+00:00
+qwen/qwen3.5-flash-02-23,qwen3.5-flash-02-23,Multi-step Combinatorics,math_logic,10,10,65.676,146,10985,0.004409,,"expected=30240, got=30240",2026-03-13T13:31:24.937638+00:00
+qwen/qwen3.5-flash-02-23,qwen3.5-flash-02-23,N-Queens Solver,code_generation,10,10,53.782,118,8128,0.003263,,all cases passed,2026-03-13T13:31:29.664242+00:00
+qwen/qwen3.5-flash-02-23,qwen3.5-flash-02-23,Dijkstra 3-Bug Fix,code_debugging,10,10,65.155,386,8998,0.003638,,all 3 bugs fixed,2026-03-13T13:31:47.058610+00:00
+qwen/qwen3.5-flash-02-23,qwen3.5-flash-02-23,Legal IT→EN Translation,translation,8,10,26.2,334,4789,0.001949,,"17/19 terms matched. Missed: ['extracontrattuale', 'danni indiretti']",2026-03-13T13:31:55.867900+00:00
+qwen/qwen3.5-flash-02-23,qwen3.5-flash-02-23,Einstein's Riddle (Extended),logic_reasoning,10,10,55.972,412,8858,0.003584,,25/25 cells correct. ,2026-03-13T13:32:09.792733+00:00
+qwen/qwen3.5-flash-02-23,qwen3.5-flash-02-23,Exact Instruction Following,instruction_following,5.5,10,15.205,290,4331,0.001761,,7 lines ✓; line1 ✓; line2 ✓; line3 ✓; line4: no IP found; line5: got 'BRAVO ECHO MIKE ALPHA NOVEMBER CHARLIE HOTEL ALPHA ROMEO KIL'; line6 ✓; line7: expected hash 9eaa48d04ed6cd90bfb320ecd8db9b2f,2026-03-13T13:32:11.076865+00:00
+qwen/qwen3.5-flash-02-23,qwen3.5-flash-02-23,DP Optimization Challenge,code_optimization,10,10,4.295,210,782,0.000334,,correct + fast,2026-03-13T13:32:15.416697+00:00
+qwen/qwen3.5-flash-02-23,qwen3.5-flash-02-23,Constrained Creative Writing,creative_writing,9.5,10,57.153,179,10408,0.004181,,"word count 151 ✓; 5 paragraphs ✓; vowel starts ['A', 'E', 'I', 'O', 'U'] ✓; dialogue lines: 3 ✓; 'silence' ×2 ✓; title 'Silent Noise' (2+ words); all sentences ≤20 words ✓",2026-03-13T13:32:44.216683+00:00
+qwen/qwen3.5-flash-02-23,qwen3.5-flash-02-23,Advanced Factual Knowledge,knowledge,9.5,10,36.001,242,5804,0.002346,,Q1: partial,2026-03-13T13:32:45.796153+00:00
+qwen/qwen3.5-flash-02-23,qwen3.5-flash-02-23,Messy Email → Structured JSON,data_extraction,10,10,82.541,703,13456,0.005453,,correctly updated TechnoSoft to 48k; pipeline_eur=305200,2026-03-13T13:32:47.482076+00:00
+qwen/qwen3.5-flash-02-23,qwen3.5-flash-02-23,K-Harmonic Graph Coloring (Custom Problem),advanced_reasoning,0,10,70.552,720,23118,0.009319,,"harmonic constraint violated; code failed: File ""/var/folders/n0/s619yhq953bdp1k85z3bhc6w0000gn/T/tmpep1hpllu.py"", line 60
+    coloring.append((temp % K) + 1  # Colors 1-4
+                   ^
+SyntaxError: '(' was never closed",2026-03-13T13:33:26.020124+00:00
+qwen/qwen3.5-397b-a17b,qwen3.5-397b-a17b,K-Harmonic Graph Coloring (Custom Problem),advanced_reasoning,1.5,10,351.309,720,21653,0.050949,,"coloring not proper; harmonic constraint violated; correct minimum sum; code ran but output: FAILED: Proper coloring constraint failed
+FAILED: Proposed solution is invalid.
+True Optimal Sum: 22",2026-03-13T13:36:05.875150+00:00
