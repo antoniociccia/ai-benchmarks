@@ -1,0 +1,12 @@
+model,model_short,test_name,category,score,max_score,latency_s,tokens_prompt,tokens_completion,cost_usd,error,validation_details,timestamp
+deepseek/deepseek-v3.2-speciale,deepseek-v3.2-speciale,Dijkstra 3-Bug Fix,code_debugging,10,10,153.35,372,3842,0.004759,,all 3 bugs fixed,2026-03-11T13:15:12.806076+00:00
+deepseek/deepseek-v3.2-speciale,deepseek-v3.2-speciale,N-Queens Solver,code_generation,10,10,175.756,113,4178,0.005059,,all cases passed,2026-03-11T13:15:35.397029+00:00
+deepseek/deepseek-v3.2-speciale,deepseek-v3.2-speciale,Multi-step Combinatorics,math_logic,10,10,280.39,136,8666,0.010454,,"expected=30240, got=30240",2026-03-11T13:17:19.803579+00:00
+deepseek/deepseek-v3.2-speciale,deepseek-v3.2-speciale,Legal IT→EN Translation,translation,6,10,178.966,367,3671,0.004552,,"16/19 terms matched. Missed: ['contrattuale', 'corrispettivi', 'danni indiretti']",2026-03-11T13:20:18.772073+00:00
+deepseek/deepseek-v3.2-speciale,deepseek-v3.2-speciale,Messy Email → Structured JSON,data_extraction,10,10,329.946,678,9577,0.011764,,correctly updated TechnoSoft to 48k; pipeline_eur=226920,2026-03-11T13:21:05.335335+00:00
+deepseek/deepseek-v3.2-speciale,deepseek-v3.2-speciale,Einstein's Riddle (Extended),logic_reasoning,10,10,397.69,406,13198,0.016,,25/25 cells correct. ,2026-03-11T13:21:50.458093+00:00
+deepseek/deepseek-v3.2-speciale,deepseek-v3.2-speciale,Advanced Factual Knowledge,knowledge,9.5,10,171.431,215,3501,0.004287,,Q1: partial,2026-03-11T13:24:41.889794+00:00
+deepseek/deepseek-v3.2-speciale,deepseek-v3.2-speciale,DP Optimization Challenge,code_optimization,10,10,142.967,204,714,0.000938,,correct + fast,2026-03-11T16:22:27.527925+00:00
+deepseek/deepseek-v3.2-speciale,deepseek-v3.2-speciale,Constrained Creative Writing,creative_writing,9.5,10,372.54,169,10555,0.012734,,"word count 180 ✓; 5 paragraphs ✓; vowel starts ['A', 'E', 'I', 'O', 'U'] ✓; dialogue lines: 6 ✓; 'silence' ×2 ✓; title 'Deafening Silence' (2+ words); all sentences ≤20 words ✓",2026-03-11T16:26:17.141034+00:00
+deepseek/deepseek-v3.2-speciale,deepseek-v3.2-speciale,Exact Instruction Following,instruction_following,0,10,512.366,276,16384,0.019771,,empty response from model,2026-03-11T16:28:36.706125+00:00
+deepseek/deepseek-v3.2-speciale,deepseek-v3.2-speciale,K-Harmonic Graph Coloring (Custom Problem),advanced_reasoning,0,10,513.356,693,16384,0.019938,,empty response from model,2026-03-11T16:31:00.893058+00:00
